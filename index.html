@@ -194,6 +194,31 @@ tr:hover td { background: rgba(181,207,188,0.06); }
 </div>
 </div>
 
+<!-- ═══ SCALING ANALYSIS ═══ -->
+<div class="section">
+<div style="background: linear-gradient(135deg, var(--surface), var(--surface2)); border: 1px solid var(--border); border-radius: 16px; padding: 28px 32px;">
+    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 16px;">
+        <span style="font-size: 1.2rem;">📈</span>
+        <span style="font-size: 1.1rem; font-weight: 600;">Scaling Impact Analysis — Tuesday Budget Increase</span>
+    </div>
+    <div style="font-size: 0.88rem; line-height: 1.7; color: var(--text);">
+        <p style="margin: 0 0 14px 0;">The account has stepped back since Tuesday's scaling. The 14-day window ($63.76 CPP) includes pre-scale data when things were running more efficiently. The 7-day window ($74.03) is mostly post-scale, and the 4-day ($80.49) is entirely post-scale — CPP is worsening as you zoom into more recent data.</p>
+
+        <p style="margin: 0 0 14px 0; font-weight: 600; color: var(--red);">Where it's hurting:</p>
+        <p style="margin: 0 0 6px 0;"><span style="color: var(--red);">▸</span> <strong>TOF #1.1</strong> is the biggest drag — $114.43 CPP on the 4-day, spending $1,488 for only 13 purchases. Nearly 3x the BASE_CPP target. Yesterday ($75.85) may signal stabilisation.</p>
+        <p style="margin: 0 0 6px 0;"><span style="color: var(--red);">▸</span> <strong>MOF #7.0</strong> has blown out — $139.13 CPP on the 4-day vs $75.04 on the 7-day. Only 7 of 24 weekly purchases came from the last 4 days.</p>
+        <p style="margin: 0 0 14px 0;"><span style="color: var(--red);">▸</span> <strong>TOM #6.0</strong> is essentially dead — $192.62 CPP with just 1 purchase on the 4-day.</p>
+
+        <p style="margin: 0 0 14px 0; font-weight: 600; color: var(--green);">Where it's working:</p>
+        <p style="margin: 0 0 6px 0;"><span style="color: var(--green);">▸</span> <strong>CP: Combination #3</strong> is the standout — $38.50 CPP, 9 purchases, and a SUPERHERO: "ADHD - Mushroom Choc - Problem Hook IT" at $24.21 CPP with 4.30x ROAS.</p>
+        <p style="margin: 0 0 6px 0;"><span style="color: var(--green);">▸</span> <strong>TOM #6.1</strong> continues to hold up — $54.72 CPP, 24 purchases on the 4-day.</p>
+        <p style="margin: 0 0 14px 0;"><span style="color: var(--green);">▸</span> <strong>Yesterday</strong> was a decent day overall — $68.21 CPP, 25 purchases, with the new CT campaigns all contributing.</p>
+
+        <p style="margin: 0; color: var(--text-muted); font-style: italic;">The budget increase appears to have hit at a time when TOF and MOF were already showing fatigue — Meta took the extra budget and spent it on saturating audiences rather than finding new converters. The silver lining is the new CT campaigns (especially the ADHD creative in Combination #3), which are delivering strong results even while the overall account CPP looks worse.</p>
+    </div>
+</div>
+</div>
+
 <!-- ═══ ACCOUNT OVERVIEW SUMMARY CARDS ═══ -->
 <div class="section">
 <div class="section-title">📊 Account Overview</div>
@@ -1751,66 +1776,4 @@ tr:hover td { background: rgba(181,207,188,0.06); }
 <div class="watch-item">
     <div class="ad-title"><span class="tier-badge" style="background:#c05050">VILLAIN</span> Mynd Chocolate - Hook #1.1 <span class="muted">(TOM #6.1)</span></div>
     <div class="reason">⚡ CPP $87.94 exceeds villain floor $118</div>
-    <div class="reason">⚡ Incremental CPP declining — recent 7d CPP $124.90 is 2.9x the older period CPP $43.09</div>
-    <div class="reason">⚡ Fading incrementality — only 24% of 14-day purchases came from the last 7 days (6 of 25)</div>
-</div>
-<div class="watch-item">
-    <div class="ad-title"><span class="tier-badge" style="background:#5a706a">CIVILIAN</span> A $10 gift - Static__OF: $10 off__C: NZ__Capsules <span class="muted">(TOM #6.1)</span></div>
-    <div class="reason">⚡ Freq 2.36 over 2.0 cap — CPP $32.59 was good, now saturated</div>
-</div>
-<div class="watch-item">
-    <div class="ad-title"><span class="tier-badge" style="background:#5a706a">CIVILIAN</span> Notes - BIS Capsules <span class="muted">(TOM #6.1)</span></div>
-    <div class="reason">⚡ Fading incrementality — only 0% of 14-day purchases came from the last 7 days (0 of 3)</div>
-</div>
-<div class="watch-item">
-    <div class="ad-title"><span class="tier-badge" style="background:#5a706a">CIVILIAN</span> Cheap Lion's Mane - Short 1 <span class="muted">(TOM #6.1)</span></div>
-    <div class="reason">⚡ Fading incrementality — only 0% of 14-day purchases came from the last 7 days (0 of 3)</div>
-</div>
-</div>
-
-<div class="section">
-<div class="section-title">📐 EE Tier Thresholds Reference</div>
-<table>
-<thead><tr>
-    <th>Funnel Stage</th><th>Stage</th>
-    <th class="text-right">Hero Ceiling</th><th class="text-right">Villain Floor</th>
-    <th class="text-right">Freq Caps</th>
-</tr></thead>
-<tbody>
-<tr>
-    <td>🏫 TOF</td><td>TOF</td>
-    <td class="text-right">$78</td>
-    <td class="text-right">$157</td>
-    <td class="text-right">1.4/1.8</td>
-</tr>
-<tr>
-    <td>🧪 CT TOM</td><td>CT_TOM</td>
-    <td class="text-right">$59</td>
-    <td class="text-right">$118</td>
-    <td class="text-right">1.8/2.0</td>
-</tr>
-<tr>
-    <td>✅ TOM</td><td>TOM</td>
-    <td class="text-right">$59</td>
-    <td class="text-right">$118</td>
-    <td class="text-right">1.8/2.0</td>
-</tr>
-<tr>
-    <td>🏫 MOF</td><td>MOF</td>
-    <td class="text-right">$39</td>
-    <td class="text-right">$78</td>
-    <td class="text-right">2.0/2.4</td>
-</tr>
-</tbody></table>
-<p class="muted" style="margin-top:8px;font-size:0.8rem">BASE_CPP = AOV ($98) × MER (0.4) = $39.20</p>
-<p class="muted" style="margin-top:6px;font-size:0.8rem"><strong>v1.1 — Incremental CPP Scoring:</strong> Ads are downgraded one tier if recent 7-day CPP exceeds 2.5× the older period (days 8–14) CPP, or if incrementality ratio drops below 35%. The "Incr. CPP" column shows the 7-day CPP with trend arrows (↑↑ = 2.5x+ worse, ↑ = 1.5x+ worse, ↓ = improving) and the % of 14-day purchases from the recent 7 days.</p>
-</div>
-
-<div class="footer">
-    Mynd Mushrooms Meta Ads Dashboard &nbsp;·&nbsp; Generated 2026-05-18 21:36 &nbsp;·&nbsp; Data via Supermetrics API<br>
-    EE Tier Scoring v1.1 (Incremental CPP) &nbsp;·&nbsp; AOV=$98 &nbsp;·&nbsp; MER=0.4 &nbsp;·&nbsp; BASE_CPP=$39
-</div>
-
-</div>
-</body>
-</html>
+    <div class="reason">⚡ Incremental CPP decl
